@@ -1,32 +1,29 @@
 const React = require('react');
 
 class Footer extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.config = props.site.config;
-  }
-
   docUrl(doc, language) {
-    const baseUrl = this.config.baseUrl;
+    const { site } = this.props;
+    const baseUrl = site.config.baseUrl;
     return baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
   }
 
   pageUrl(doc, language) {
-    const baseUrl = this.config.baseUrl;
+    const { site } = this.props;
+    const baseUrl = site.config.baseUrl;
     return baseUrl + (language ? language + '/' : '') + doc;
   }
 
   render() {
+    const { site } = this.props;
     const currentYear = new Date().getFullYear();
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.config.baseUrl} className="nav-home">
-            {this.config.footerIcon && (
+          <a href={site.config.baseUrl} className="nav-home">
+            {site.config.footerIcon && (
               <img
-                src={this.config.baseUrl + this.config.footerIcon}
-                alt={this.config.title}
+                src={site.config.baseUrl + site.config.footerIcon}
+                alt={site.config.title}
                 width="66"
                 height="58"
               />
@@ -61,11 +58,11 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href={this.config.baseUrl + 'blog'}>Blog</a>
+            <a href={site.config.baseUrl + 'blog'}>Blog</a>
             <a href="https://github.com/">GitHub</a>
             <a
               className="github-button"
-              href={this.config.repoUrl}
+              href={site.config.repoUrl}
               data-icon="octicon-star"
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count={true}
@@ -81,7 +78,7 @@ class Footer extends React.Component {
           target="_blank"
           className="fbOpenSource">
           <img
-            src={this.config.baseUrl + 'img/oss_logo.png'}
+            src={site.config.baseUrl + 'img/oss_logo.png'}
             alt="Facebook Open Source"
             width="170"
             height="45"

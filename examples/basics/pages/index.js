@@ -163,9 +163,7 @@ const Showcase = props => {
     return null;
   }
   const showcase = siteConfig.users
-    .filter(user => {
-      return user.pinned;
-    })
+    .filter(user => { return user.pinned; })
     .map((user, i) => {
       return (
         <a href={user.infoLink} key={i}>

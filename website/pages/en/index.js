@@ -1,20 +1,10 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 const React = require("react");
 
-const CompLibrary = require("../../core/CompLibrary.js");
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
+const Container = require('../../core/Container.js');
+const GridBlock = require('../../core/GridBlock.js');
+const MarkdownBlock = require('../../core/MarkdownBlock.js');
 
 const siteConfig = require(process.cwd() + "/siteConfig.js");
-
-const translate = require("../../server/translate.js").translate;
 
 class Button extends React.Component {
   render() {

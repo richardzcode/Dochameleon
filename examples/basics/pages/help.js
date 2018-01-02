@@ -1,7 +1,7 @@
 const React = require('react');
 
-const Container = require('../core/Container.js');
-const GridBlock = require('../core/GridBlock.js');
+const Container = require('../components/Container.js');
+const GridBlock = require('../components/GridBlock.js');
 
 const siteConfig = require(process.cwd() + '/siteConfig.js');
 

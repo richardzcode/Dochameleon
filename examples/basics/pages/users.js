@@ -1,6 +1,6 @@
 const React = require('react');
 
-const Container = require('../core/Container.js');
+const Container = require('../components/Container.js');
 
 const siteConfig = require(process.cwd() + '/siteConfig.js');
 

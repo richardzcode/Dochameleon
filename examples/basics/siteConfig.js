@@ -14,6 +14,8 @@ const siteConfig = {
   url: 'https://facebook.github.io',
   baseUrl: '/test-site/',
   projectName: 'test-site',
+  icon: 'img/docusaurus.svg',
+  favicon: 'img/favicon.png',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
@@ -21,9 +23,6 @@ const siteConfig = {
     {blog: true, label: 'Blog'},
   ],
   users,
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
   colors: {
     primaryColor: '#2E8555',
     secondaryColor: '#205C3B',

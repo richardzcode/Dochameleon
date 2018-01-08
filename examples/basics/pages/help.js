@@ -1,39 +1,18 @@
 const React = require('react');
 
-const Container = require('../components/Container.js');
-const GridBlock = require('../components/GridBlock.js');
-
-const siteConfig = require(process.cwd() + '/siteConfig.js');
+const HelpDetails = require('../components/HelpDetails.js');
 
 class Help extends React.Component {
   render() {
-    const supportLinks = [
-      {
-        content:
-          'Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)',
-        title: 'Browse Docs',
-      },
-      {
-        content: 'Ask questions about the documentation and project',
-        title: 'Join the community',
-      },
-      {
-        content: "Find out what's new with this project",
-        title: 'Stay up to date',
-      },
-    ];
-
+    const { site } = this.props;
+    const { theme } = site;
     return (
-      <div className="docMainWrapper wrapper">
-        <Container className="mainContainer documentContainer postContainer">
-          <div className="post">
-            <header className="postHeader">
-              <h2>Need help?</h2>
-            </header>
-            <p>This project is maintained by a dedicated group of people.</p>
-            <GridBlock contents={supportLinks} layout="threeColumn" />
-          </div>
-        </Container>
+      <div style={theme.section}>
+        <div style={theme.helpSection}>
+          <h2 style={theme.helpTitle}>Need help?</h2>
+          <p style={theme.p}>This project is maintained by a dedicated group of people.</p>
+        </div>
+        <HelpDetails site={site} />
       </div>
     );
   }

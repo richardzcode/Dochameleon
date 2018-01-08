@@ -709,10 +709,8 @@ input::placeholder {
 
 code {
   padding: 2px 0;
-  background-color: $codeColor;
   /* box-shadow acts as padding around inline code snippets
    * while not adding any extra spacing between words. */
-  box-shadow: 2px 0 $codeColor, -2px 0 $codeColor;
   color: inherit;
   border-radius: .3em;
   font-family: "SFMono-Regular",source-code-pro,Menlo,Monaco,Consolas,"Roboto Mono","Droid Sans Mono","Liberation Mono",Consolas,"Courier New",Courier,monospace;
@@ -1208,7 +1206,6 @@ ul#languages li {
 .docsSliderActive.docsNavContainer {
   box-sizing: border-box;
   height: 100%;
-  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 50px;
 }
@@ -1427,7 +1424,6 @@ nav.toc .toggleNav .navBreadcrumb h2 {
     box-sizing: border-box;
     height: auto;
     margin: 40px 40px 0 0;
-    overflow-y: auto;
     position: relative;
     width: 300px;
   }

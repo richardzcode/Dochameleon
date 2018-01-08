@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Powered by Markdown",
+    "content": "Write docs and blog posts with Markdown",
+    "img": "img/markdown.png"
+  },
+  {
+    "title": "Built Using React",
+    "content": "Extend or customize your project by using React",
+    "img": "img/react.svg"
+  }
+]

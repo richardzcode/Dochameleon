@@ -9,7 +9,7 @@ const HelpDetails = (props) => {
     return (
       <Col col={4} key={idx}>
         <Div style={theme.section}>
-          <H3 style={theme.h3}>{help_item.title}</H3>
+          <H3 style={theme.helpSectionTitle}>{help_item.title}</H3>
           <P style={theme.p} dangerouslySetInnerHTML={{__html: help_item.content}} />
         </Div>
       </Col>

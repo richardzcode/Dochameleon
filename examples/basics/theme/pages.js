@@ -43,14 +43,21 @@ const pages = {
     padding: '20px',
     width: '80px'
   },
-  helpSection: {
-    padding: '20px'
-  },
   helpTitle: {
     textAlign: 'left',
     color: '#2E8555',
     fontWeight: '300',
     fontSize: '200%',
+    lineHeight: '1em'
+  },
+  helpSection: {
+    padding: '20px'
+  },
+  helpSectionTitle: {
+    textAlign: 'left',
+    color: '#2E8555',
+    fontWeight: '300',
+    fontSize: '150%',
     lineHeight: '1em'
   }
 };

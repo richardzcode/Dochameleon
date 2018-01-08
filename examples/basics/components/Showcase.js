@@ -1,5 +1,5 @@
 const React = require('react');
-const { H2, H5, Div, P, Row, Col } = require('fluid-react');
+const { H3, H5, Div, P, Row, Col } = require('fluid-react');
 
 const users = require('./users.json');
 
@@ -8,20 +8,21 @@ const Showcase = props => {
 
   const { site } = props;
   const { theme } = site;
-  const show_users = users.filter(user => !props.pinned || user.pinned);
-  const userComps = show_users.map((user, i) => {
-    return (
-      <Col xs={6} sm={4} md={3} lg={2} xl={1} key={i}>
-        <a href={user.link} style={theme.showcaseBox}>
-          <img src={site.url(user.img)} title={user.caption} />
-        </a>
-      </Col>
-    );
-  });
+  const userComps = users
+    .filter(user => !props.pinned || user.pinned)
+    .map((user, i) => {
+      return (
+        <Col xs={6} sm={4} md={3} lg={2} xl={1} key={i}>
+          <a href={user.link} style={theme.showcaseBox}>
+            <img src={site.url(user.img)} title={user.caption} />
+          </a>
+        </Col>
+      );
+    });
 
   return (
     <Div style={theme.showcase}>
-      <H2 style={theme.h2}>Who's Using This?</H2>
+      <H3 style={theme.h3}>Who's Using This?</H3>
       <H5 style={theme.h5}>This project is used by all these people</H5>
       <Row>
         {userComps}

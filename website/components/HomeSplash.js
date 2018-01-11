@@ -14,8 +14,8 @@ class HomeSplash extends React.Component {
         </H2>
         <Div style={site.theme.promoSection}>
           <Button site={site} href={site.docUrl('guide_installation')}>Getting Started</Button>
+          <Button site={site} href={site.docUrl('guide_color_schema')}>Customization</Button>
           <Button site={site} href={site.docUrl('doc1')}>Example Link</Button>
-          <Button site={site} href={site.docUrl('doc2')}>Example Link 2</Button>
         </Div>
       </Div>
     );

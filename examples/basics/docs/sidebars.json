@@ -5,7 +5,7 @@
       "guide_site_creation",
       "guide_site_publishing"
     ],
-    "Customization": ["guide_color_scheme", "guide_theme"]
+    "Customization": ["guide_color_scheme", "guide_theme", "guide_react"]
   },
   "example_docs": {
     "Examples": ["doc1", "doc2", "doc3"]

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Quick Setup",
+    "doc": "doc1",
+    "content": "Get up and running quickly",
+    "img": "img/setup.png"
+  },
+  {
+    "title": "Develop and Deploy",
+    "doc": "doc2",
+    "content": [
+      "Develop using included live server; ",
+      "Deploy to GitHub or any static file web hosts"
+    ],
+    "img": "img/octocat.jpg"
+  }
+]

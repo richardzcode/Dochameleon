@@ -1,12 +1,18 @@
 [
   {
     "title": "Powered by Markdown",
-    "content": "Write docs and blog posts with Markdown",
+    "content": [
+      "Write docs and blog posts with ",
+      "<a href=\"https://guides.github.com/features/mastering-markdown/\">Markdown</a>"
+    ],
     "img": "img/markdown.png"
   },
   {
     "title": "Built Using React",
-    "content": "Extend or customize your project by using React",
+    "content": [
+      "Extend or customize your project by using ",
+      "<a href=\"https://reactjs.org/\">React</a>"
+    ],
     "img": "img/react.svg"
   }
 ]

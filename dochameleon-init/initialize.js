@@ -39,4 +39,8 @@ shell.exec(
 );
 log(chalk.green("Dochameleon installed in website folder!\n"));
 
-shell.exec(useYarn? "yarn run examples" : "npm run examples");
+shell.exec(
+  useYarn
+    ? "yarn run examples"
+    : "npm run examples"
+);

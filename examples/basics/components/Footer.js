@@ -33,11 +33,11 @@ class Footer extends React.Component {
           <div style={theme.sitemapSection}>
             <h5 style={theme.sitemapSectionTitle}>More</h5>
             <a style={theme.sitemapSectionRow} href={site.url('blog')}>Blog</a>
-            <a style={theme.sitemapSectionRow} href="https://github.com/">GitHub</a>
+            <a style={theme.sitemapSectionRow} href="https://github.com/richardzcode/Dochameleon">GitHub</a>
             <a
               style={theme.sitemapSectionRow}
               className="github-button"
-              href={site.config.repoUrl}
+              href="https://github.com/richardzcode/Dochameleon"
               data-icon="octicon-star"
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count={true}
@@ -50,7 +50,7 @@ class Footer extends React.Component {
 
         <section style={theme.copyrightSection}>
           <a style={theme.copyrightLink}  href="https://github.com/richardzcode/" target="_blank">
-            Copyright &copy; {currentYear} Richard Zhang
+            {site.config.copyright}
           </a>
         </section>
       </footer>

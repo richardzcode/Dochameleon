@@ -1,3 +1,5 @@
+const color = require('./color.js');
+
 const pages = {
   block: {
     padding: '60px 10px'
@@ -27,9 +29,10 @@ const pages = {
   },
   featureCalloutTitle: {
     textAlign: 'left',
-    color: '#2E8555',
+    textDecoration: 'none',
+    color: color.title,
     fontWeight: '300',
-    fontSize: '200%',
+    fontSize: '180%',
     lineHeight: '1em'
   },
   featureCalloutImageContainer: {
@@ -43,9 +46,12 @@ const pages = {
     padding: '20px',
     width: '80px'
   },
+  showcaseImage: {
+    maxWidth: '100%'
+  },
   helpTitle: {
     textAlign: 'left',
-    color: '#2E8555',
+    color: color.title,
     fontWeight: '300',
     fontSize: '200%',
     lineHeight: '1em'
@@ -55,7 +61,7 @@ const pages = {
   },
   helpSectionTitle: {
     textAlign: 'left',
-    color: '#2E8555',
+    color: color.title,
     fontWeight: '300',
     fontSize: '150%',
     lineHeight: '1em'

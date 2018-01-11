@@ -13,7 +13,7 @@ class HomeSplash extends React.Component {
           <Div style={site.theme.tagline}>{site.config.tagline}</Div>
         </H2>
         <Div style={site.theme.promoSection}>
-          <Button site={site} href="#try">Try It Out</Button>
+          <Button site={site} href={site.docUrl('guide_installation')}>Getting Started</Button>
           <Button site={site} href={site.docUrl('doc1')}>Example Link</Button>
           <Button site={site} href={site.docUrl('doc2')}>Example Link 2</Button>
         </Div>

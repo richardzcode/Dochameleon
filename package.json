@@ -1,6 +1,6 @@
 {
   "name": "dochameleon",
-  "description": "More flexible Docusaurus",
+  "description": "Simpler but more flexible Docusaurus",
   "version": "0.0.1",
   "license": "MIT",
   "keywords": [
@@ -8,7 +8,7 @@
     "websites",
     "open source",
     "dochameleon",
-    "dochameleon"
+    "docusaurus"
   ],
   "repository": {
     "type": "git",
@@ -31,7 +31,6 @@
     "babel-traverse": "^6.25.0",
     "babylon": "^6.17.4",
     "chalk": "^2.1.0",
-    "classnames": "^2.2.5",
     "commander": "^2.11.0",
     "express": "^4.15.3",
     "feed": "^1.1.0",
@@ -55,9 +54,6 @@
     "dochameleon-examples": "./lib/copy-examples.js"
   },
   "devDependencies": {
-    "filepath": "^1.1.0",
-    "front-matter": "^2.3.0",
-    "glob-promise": "^3.3.0",
     "jest": "^21.2.1",
     "prettier": "^1.9.1",
     "rimraf": "^2.6.2"

@@ -5,6 +5,7 @@ class FeatureCallout extends React.Component {
   render() {
     const { site, feature, odd } = this.props;
     const { theme } = site;
+    const content = [].concat(feature.content).join('');
     return (
       <Row>
         { !odd && (
@@ -13,12 +14,12 @@ class FeatureCallout extends React.Component {
               style={theme.featureCalloutTitle}
               href={site.docUrl(feature.doc)}
             >{feature.title}</A>
-            <P style={theme.p} dangerouslySetInnerHTML={{__html: feature.content}} />
+            <P style={theme.p} dangerouslySetInnerHTML={{__html: content}} />
           </Col>
         )}
         <Col sm={12} md={8}>
           <Div style={theme.featureCalloutImageContainer}>
-            <Img src={feature.img} style={theme.featureCalloutImage}/>
+            <Img src={site.url(feature.img)} style={theme.featureCalloutImage}/>
           </Div>
         </Col>
         { odd && (
@@ -27,7 +28,7 @@ class FeatureCallout extends React.Component {
               style={theme.featureCalloutTitle}
               href={site.docUrl(feature.doc)}
             >{feature.title}</A>
-            <P style={theme.p} dangerouslySetInnerHTML={{__html: feature.content}} />
+            <P style={theme.p} dangerouslySetInnerHTML={{__html: content}} />
           </Col>
         )}
       </Row>

@@ -8,7 +8,10 @@
   {
     "title": "Develop and Deploy",
     "doc": "doc2",
-    "content": "Develop using included live server; Deploy to GitHub or any static file web hosts",
+    "content": [
+      "Develop using included live server; ",
+      "Deploy to GitHub or any static file web hosts"
+    ],
     "img": "img/octocat.jpg"
   }
 ]

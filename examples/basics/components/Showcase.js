@@ -13,8 +13,8 @@ const Showcase = props => {
     .map((user, i) => {
       return (
         <Col xs={6} sm={4} md={3} lg={2} xl={1} key={i}>
-          <a href={user.link} style={theme.showcaseBox}>
-            <img src={site.url(user.img)} title={user.caption} />
+          <a style={theme.showcaseBox} href={user.link}>
+            <img style={theme.showcaseImage} src={site.url(user.img)} title={user.caption} />
           </a>
         </Col>
       );

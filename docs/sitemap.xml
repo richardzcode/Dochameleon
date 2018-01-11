@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://richardzcode.github.io/help.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://richardzcode.github.io/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://richardzcode.github.io/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/blog/2018/01/10/staging-step.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/blog/2018/01/08/why-dochameleon.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/doc1.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/doc2.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/doc3.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/guide_color_scheme.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/guide_react.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/guide_theme.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/guide_installation.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/guide_site_creation.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/Dochameleon/docs/guide_site_publishing.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+</urlset>

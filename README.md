@@ -1,2 +1,5 @@
 # Dochameleon
-Make a more flexible [Docusaurus](https://github.com/facebook/Docusaurus)
+
+Open Source documentation website generator.
+
+Check [Dochameleon Site](https://richardzcode.github.io/Dochameleon/) for its own documentation.

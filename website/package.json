@@ -6,6 +6,6 @@
     "publish-gh-pages": "dochameleon-publish"
   },
   "devDependencies": {
-    "dochameleon": "file:../dochameleon-0.0.4.tgz"
+    "dochameleon": "file:../dochameleon-0.0.6.tgz"
   }
 }

@@ -90,4 +90,15 @@ Site configurations are defined in `website/siteConfig.js`
 
 Customize UI styling under `website/theme`, by writing Javascript. Dochameleon does not have CSS file, it styles UI with Javascript style object.
 
-If prefer to have CSS files, write write under `website/static`. In order to have CSS files in HTML page, you'll need to add links to file in `siteConfig.js`, add to `config.stylesheets` array.
+If prefer to have CSS files, write under `website/static`.
+
+### CSS and JS Files
+
+To include extra CSS and JS files, You'll need to add links in `siteConfig.js`, CSS to `config.css` and JS to `config.js` array.
+
+For example,
+```
+  js: [
+    'https://buttons.github.io/buttons.js'
+  ],
+```

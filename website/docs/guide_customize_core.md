@@ -6,7 +6,7 @@ sidebar_label: Core Component
 
 Like mentioned in [Customization - React Component](./guide_react.html), Dochameleon merges custom and core components together at runtime. This makes further customization possible.
 
-Let's say you don't like sidebar at the left side for docs. Just create copy core `components/docs/DocsLayout.js` from core library to `website/components/docs`, then modify render function to switch the order of sidebar and content.
+Let's say you don't like sidebar at the left side for docs. Just copy `components/docs/DocsLayout.js` from core library to `website/components/docs`, then modify render function to switch the order of sidebar and content.
 
 ```
     return (

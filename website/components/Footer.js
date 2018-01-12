@@ -10,19 +10,12 @@ class Footer extends React.Component {
         <section style={theme.sitemap}>
           <div style={theme.sitemapSection}>
             <h5 style={theme.sitemapSectionTitle}>Docs</h5>
-            <a style={theme.sitemapSectionRow} href={site.docUrl('doc1')}>Getting Started</a>
-            <a style={theme.sitemapSectionRow} href={site.docUrl('doc2')}>Guides</a>
-            <a style={theme.sitemapSectionRow} href={site.docUrl('doc3')}>API Reference</a>
+            <a style={theme.sitemapSectionRow} href={site.docUrl('guide_installation')}>Getting Started</a>
+            <a style={theme.sitemapSectionRow} href={site.docUrl('guide_color_scheme')}>Guides</a>
           </div>
           <div style={theme.sitemapSection}>
             <h5 style={theme.sitemapSectionTitle}>Community</h5>
             <a style={theme.sitemapSectionRow} href={site.pageUrl('users')}>User Showcase</a>
-            <a
-              style={theme.sitemapSectionRow}
-              href="http://stackoverflow.com/questions/tagged/"
-              target="_blank">
-              Stack Overflow
-            </a>
             <a
               style={theme.sitemapSectionRow}
               href="https://twitter.com/"
@@ -34,17 +27,6 @@ class Footer extends React.Component {
             <h5 style={theme.sitemapSectionTitle}>More</h5>
             <a style={theme.sitemapSectionRow} href={site.url('blog')}>Blog</a>
             <a style={theme.sitemapSectionRow} href="https://github.com/richardzcode/Dochameleon">GitHub</a>
-            <a
-              style={theme.sitemapSectionRow}
-              className="github-button"
-              href="https://github.com/richardzcode/Dochameleon"
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count={true}
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a>
           </div>
         </section>
 

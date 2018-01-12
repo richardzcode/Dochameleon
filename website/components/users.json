@@ -1,5 +1,11 @@
 [
   {
+    "caption": "fsts-js",
+    "img": "img/fsts.png",
+    "link": "https://richardzcode.github.io/fsts-js/index.html",
+    "pinned": true
+  },
+  {
     "caption": "Fluid React",
     "img": "img/f-r.png",
     "link": "https://richardzcode.github.io/fluid-react/index.html",

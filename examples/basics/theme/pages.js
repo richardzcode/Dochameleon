@@ -44,10 +44,12 @@ const pages = {
   showcaseBox: {
     display: 'block',
     padding: '20px',
-    width: '80px'
+    width: '80px',
+    textAlign: 'center'
   },
   showcaseImage: {
-    maxWidth: '100%'
+    maxWidth: '100%',
+    maxHeight: '80px'
   },
   helpTitle: {
     textAlign: 'left',

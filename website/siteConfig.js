@@ -12,10 +12,6 @@ const siteConfig = {
   icon: 'img/dochameleon.png',
   favicon: 'img/favicon.png',
 
-  js: [
-    'https://buttons.github.io/buttons.js'
-  ],
-
   headerLinks: [
     {doc: 'guide_installation', label: 'Docs'},
     {doc: 'doc1', label: 'Examples'},

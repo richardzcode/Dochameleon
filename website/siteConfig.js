@@ -2,8 +2,8 @@ const currentYear = new Date().getFullYear();
 
 const siteConfig = {
   projectName: 'Dochameleon',
-  title: 'Test Site',
-  tagline: 'A website for testing',
+  title: 'Dochameleon',
+  tagline: 'Open Source Documentation Site Generator',
   copyright: 'Copyright © ' + currentYear + ' Richard Zhang',
 
   rootUrl: 'https://richardzcode.github.io',

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://richardzcode.github.io/Dochameleon/blog</id>
-    <title>Test Site Blog</title>
+    <title>Dochameleon Blog</title>
     <updated>2018-01-10T14:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://richardzcode.github.io/Dochameleon/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Test Site news and events.</subtitle>
+    <subtitle>The best place to stay up-to-date with the latest Dochameleon news and events.</subtitle>
     <rights>Copyright © 2018 Richard Zhang</rights>
     <entry>
         <title type="html"><![CDATA[Staging Step]]></title>

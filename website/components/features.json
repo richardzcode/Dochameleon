@@ -1,18 +1,23 @@
-[
-  {
-    "title": "Powered by Markdown",
-    "content": [
-      "Write docs and blog posts with ",
-      "<a href=\"https://guides.github.com/features/mastering-markdown/\">Markdown</a>"
-    ],
-    "img": "img/markdown.png"
-  },
-  {
-    "title": "Built Using React",
-    "content": [
-      "Extend or customize your project by using ",
-      "<a href=\"https://reactjs.org/\">React</a>"
-    ],
-    "img": "img/react.svg"
-  }
-]
+{
+  "header": "",
+  "footer": "",
+  "features": [
+    {
+      "title": "Powered by Markdown",
+      "content": [
+        "Write docs and blog posts with ",
+        "<a href=\"https://guides.github.com/features/mastering-markdown/\">Markdown</a>. ",
+        "Dochameleon converts them into HTML files."
+      ],
+      "img": "img/markdown.png"
+    },
+    {
+      "title": "Built Using React",
+      "content": [
+        "Build <a href=\"https://reactjs.org/\">React</a> Components ",
+        "to extend or customize your project."
+      ],
+      "img": "img/react.svg"
+    }
+  ]
+}

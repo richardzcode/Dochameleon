@@ -50,6 +50,8 @@ npm run examples
 
 ### Run Local Dev Server
 
+Once installation completed, a website with example content is ready to go. Just run
+
 ```
 npm run start
 ```

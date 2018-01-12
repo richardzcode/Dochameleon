@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Quick Setup",
+    "doc": "guide_installation",
+    "content": [
+      "Get up and running quickly",
+      "\n<br/><br/>",
+      "\n<div style=\"font-size: 0.8em\">",
+      "Modify \"website/components/callouts.json\" to change content of this section",
+      "</div>"
+    ],
+    "img": "img/setup.png",
+    "imgFirst": false
+  },
+  {
+    "title": "Develop and Deploy",
+    "content": [
+      "Develop using included live server; ",
+      "Deploy to GitHub or any static file web hosts",
+      "\n<br/><br/>",
+      "\n<div style=\"font-size: 0.8em\">",
+      "Modify \"website/components/callouts.json\" to change content of this section",
+      "</div>"
+    ],
+    "img": "img/octocat.jpg",
+    "imgFirst": true
+  }
+]

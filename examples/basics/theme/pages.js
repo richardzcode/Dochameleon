@@ -27,7 +27,7 @@ const pages = {
   featureImage: {
     maxWidth: '80px'
   },
-  featureCalloutTitle: {
+  calloutTitle: {
     textAlign: 'left',
     textDecoration: 'none',
     color: color.title,
@@ -35,10 +35,10 @@ const pages = {
     fontSize: '180%',
     lineHeight: '1em'
   },
-  featureCalloutImageContainer: {
+  calloutImageContainer: {
     textAlign: 'center'
   },
-  featureCalloutImage: {
+  calloutImage: {
     maxWidth: '80%'
   },
   showcaseBox: {

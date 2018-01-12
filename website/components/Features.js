@@ -3,10 +3,13 @@ const { H3, Div, P, Img, Row, Col } = require('fluid-react');
 
 const features = require('./features.json');
 
+const header = features.header? [].concat(features.header).join('') : '';
+const footer = features.footer? [].concat(features.footer).join('') : '';
+
 const Features = (props) => {
   const { site } = props;
   const { theme } = site;
-  const sectionComps = features.map((feature, idx) => {
+  const sectionComps = features.features.map((feature, idx) => {
     const content = [].concat(feature.content).join('');
     return (
       <Col sm={12} md={6} xl={4} key={idx}>
@@ -20,7 +23,14 @@ const Features = (props) => {
       </Col>
     )
   });
-  return <Row>{sectionComps}</Row>
+
+  return (
+    <React.Fragment>
+      {header && <Div dangerouslySetInnerHTML={{__html: header}} />}
+      <Row>{sectionComps}</Row>
+      {footer && <Div dangerouslySetInnerHTML={{__html: footer}} />}
+    </React.Fragment>
+  )
 }
 
 module.exports = Features;

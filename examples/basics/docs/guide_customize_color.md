@@ -6,7 +6,7 @@ sidebar_label: Color Scheme
 
 Changing colors probably is the simplest way to differenciate a website.
 
-Dochameleon does not have CSS file. All styles are defined in Javascript, which enables easy style customation. Changing color scheme is a perfect example.
+Dochameleon does not have CSS file. All styles are defined in Javascript, which enables easy style customization. Changing color scheme is a perfect example.
 
 The core library has a [theme](https://github.com/richardzcode/Dochameleon/tree/master/lib/core/theme) folder which defines UI style. Custom website also have a `theme` folder. At runtime the two folder will be combined together, with the custom file replace core file if names are same. 
 

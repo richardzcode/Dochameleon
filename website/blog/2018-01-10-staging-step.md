@@ -10,7 +10,7 @@ Combining from two sources can be tricky. So there is a staging step. Which in e
 
 The one place can be found at `node_modules/dochameleon/lib/stage`, contains a file structure like this:
 
-```
+```bash
 node_modules/dochameleon/lib/stage/
 ├── Blog.js
 ├── Docs.js

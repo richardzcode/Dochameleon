@@ -10,7 +10,7 @@ sidebar_label: Site Creation
 
 Once installation successful, here is the file structure you'll have under the `website` folder
 
-```
+```bash
 website/
 ├── blog/
 │   ├── 2018-01-08-why-dochameleon.md
@@ -64,11 +64,10 @@ title: Why Dochameleon
 author: Richard Zhang
 authorUrl: https://github.com/richardzcode
 authorImage: https://github.com/richardzcode.png
-authorGitHub: richardzcode
 ---
 ```
 
-authorUrl and authorImage can be get by name/id of GitHub, Facebook, or Twitter, for example:
+authorUrl and authorImage can be set by name/id of GitHub, Facebook, or Twitter, for example:
 
 ```
 authorGitHub: richardzcode
@@ -100,13 +99,13 @@ Details about customization check [here](guide_color_scheme.md)
 
 ### UI Styling
 
-Customize UI styling under `website/theme`, by writing Javascript. Dochameleon does not have CSS file, it styles UI with Javascript style object.
+Customize UI styling under `website/theme`, in Javascript. Dochameleon does not have CSS file, it styles UI with Javascript object.
 
 If prefer to have CSS files, put under `website/static`.
 
 ### CSS and JS Files
 
-To include extra CSS and JS files, You'll need to add links in `siteConfig.js`, CSS to `config.css` and JS to `config.js` array.
+To include extra CSS and JS files, You'll need to add links in `siteConfig.js`, css and js array.
 
 For example,
 ```

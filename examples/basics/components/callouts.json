@@ -5,9 +5,9 @@
     "content": [
       "Get up and running quickly",
       "\n<br/><br/>",
-      "\n<div style=\"font-size: 0.8em\">",
+      "\n<sub>",
       "Modify \"website/components/callouts.json\" to change content of this section",
-      "</div>"
+      "</sub>"
     ],
     "img": "img/setup.png",
     "imgFirst": false
@@ -18,9 +18,9 @@
       "Develop using included live server; ",
       "Deploy to GitHub or any static file web hosts",
       "\n<br/><br/>",
-      "\n<div style=\"font-size: 0.8em\">",
+      "\n<sub>",
       "Modify \"website/components/callouts.json\" to change content of this section",
-      "</div>"
+      "</sub>"
     ],
     "img": "img/octocat.jpg",
     "imgFirst": true

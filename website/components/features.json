@@ -6,7 +6,7 @@
       "title": "Powered by Markdown",
       "content": [
         "Write docs and blog posts with ",
-        "<a href=\"https://guides.github.com/features/mastering-markdown/\">Markdown</a>. ",
+        "[Markdown](https://guides.github.com/features/mastering-markdown/). ",
         "Dochameleon converts them into HTML files."
       ],
       "img": "img/markdown.png"
@@ -14,7 +14,7 @@
     {
       "title": "Built Using React",
       "content": [
-        "Build <a href=\"https://reactjs.org/\">React</a> Components ",
+        "Build [React](https://reactjs.org/) Components ",
         "to extend or customize your project."
       ],
       "img": "img/react.svg"

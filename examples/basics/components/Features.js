@@ -1,6 +1,7 @@
 const React = require('react');
-const { H3, Div, P, Img, Row, Col } = require('fluid-react');
+const { H3, Div, Img, Row, Col } = require('fluid-react');
 
+const MarkdownBlock = require('./MarkdownBlock.js');
 const features = require('./features.json');
 
 const header = features.header? [].concat(features.header).join('') : '';
@@ -18,7 +19,7 @@ const Features = (props) => {
             <Img src={site.url(feature.img)} style={theme.featureImage}/>
           </Div>
           <H3 style={theme.h3}>{feature.title}</H3>
-          <P style={theme.p} dangerouslySetInnerHTML={{__html: content}} />
+          <MarkdownBlock site={site}>{content}</MarkdownBlock>
         </Div>
       </Col>
     )
@@ -26,9 +27,9 @@ const Features = (props) => {
 
   return (
     <React.Fragment>
-      {header && <Div dangerouslySetInnerHTML={{__html: header}} />}
+      {header && <MarkdownBlock site={site}>{header}</MarkdownBlock>}
       <Row>{sectionComps}</Row>
-      {footer && <Div dangerouslySetInnerHTML={{__html: footer}} />}
+      {footer && <MarkdownBlock site={site}>{footer}</MarkdownBlock>}
     </React.Fragment>
   )
 }

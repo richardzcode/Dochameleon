@@ -1,5 +1,7 @@
 const React = require('react');
-const { Div, P, A, Img, Row, Col } = require('fluid-react');
+const { Div, A, Img, Row, Col } = require('fluid-react');
+
+const MarkdownBlock = require('./MarkdownBlock');
 
 class FeatureCallout extends React.Component {
   render() {
@@ -23,7 +25,7 @@ class FeatureCallout extends React.Component {
               >{callout.title}</A>
             : <Div style={theme.calloutTitle}>{callout.title}</Div>
           }
-          <P style={theme.p} dangerouslySetInnerHTML={{__html: content}} />
+          <MarkdownBlock site={site}>{content}</MarkdownBlock>
         </Col>
         {!callout.imgFirst && (
           <Col sm={12} md={8}>

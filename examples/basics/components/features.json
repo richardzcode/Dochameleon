@@ -1,16 +1,16 @@
 {
   "header": "",
   "footer": [
-    "<div style=\"font-size: 0.8em; text-align: center; margin-top: 2em;\">",
+    "<sub>",
     "Modify \"website/components/features.json\" to change content of this section",
-    "</div>"
+    "</sub>"
   ],
   "features": [
     {
       "title": "Powered by Markdown",
       "content": [
         "Write docs and blog posts with ",
-        "<a href=\"https://guides.github.com/features/mastering-markdown/\">Markdown</a>"
+        "[Markdown](https://guides.github.com/features/mastering-markdown/)"
       ],
       "img": "img/markdown.png"
     },
@@ -18,7 +18,7 @@
       "title": "Built Using React",
       "content": [
         "Extend or customize your project by using ",
-        "<a href=\"https://reactjs.org/\">React</a>"
+        "[React](https://reactjs.org/)"
       ],
       "img": "img/react.svg"
     }

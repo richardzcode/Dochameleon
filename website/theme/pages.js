@@ -25,7 +25,7 @@ const pages = {
     textAlign: 'center'
   },
   featureImage: {
-    maxWidth: '80px'
+    maxHeight: '80px'
   },
   calloutTitle: {
     textAlign: 'left',

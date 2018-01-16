@@ -1,6 +1,6 @@
 ---
 id: guide_color_scheme
-title: Customization - Color Scheme
+title: Color Scheme
 sidebar_label: Color Scheme
 ---
 

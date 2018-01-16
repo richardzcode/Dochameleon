@@ -1,6 +1,6 @@
 ---
 id: guide_core
-title: Customization - Core Component
+title: Core Component
 sidebar_label: Core Component
 ---
 

@@ -6,6 +6,7 @@
       "guide_site_publishing"
     ],
     "Customization": [
+      "guide_progressive",
       "guide_color_scheme",
       "guide_theme",
       "guide_react",

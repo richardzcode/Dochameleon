@@ -64,11 +64,10 @@ title: Why Dochameleon
 author: Richard Zhang
 authorUrl: https://github.com/richardzcode
 authorImage: https://github.com/richardzcode.png
-authorGitHub: richardzcode
 ---
 ```
 
-authorUrl and authorImage can be get by name/id of GitHub, Facebook, or Twitter, for example:
+authorUrl and authorImage can be set by name/id of GitHub, Facebook, or Twitter, for example:
 
 ```
 authorGitHub: richardzcode

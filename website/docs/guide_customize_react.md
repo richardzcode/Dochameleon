@@ -1,6 +1,6 @@
 ---
 id: guide_react
-title: Customization - React Component
+title: React Component
 sidebar_label: React Component
 ---
 

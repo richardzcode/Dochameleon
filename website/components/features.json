@@ -18,6 +18,11 @@
         "to extend or customize your project."
       ],
       "img": "img/react.svg"
+    },
+    {
+      "title": "Progressive Customization",
+      "content": "Works out-of-box, able to customize to the extend of replacing core components",
+      "img": "img/progressive.png"
     }
   ]
 }

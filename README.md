@@ -13,7 +13,7 @@ Start your website in less than 1 minute.
 
 Progressive
 
-![Progressive](docs/img/progressive.png)
+<img src="docs/img/progressive.png" width="520px" />
 
 1. [Just write markdown for documentation and blogging](https://richardzcode.github.io/Dochameleon/docs/guide_site_creation.html)
 2. [Change color scheme](https://richardzcode.github.io/Dochameleon/docs/guide_color_scheme.html)

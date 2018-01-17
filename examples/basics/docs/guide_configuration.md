@@ -42,4 +42,4 @@ const siteConfig = {
 
 Dochameleon itself does not have css file. Theming is through CSS-in-JS. Extra css and js files can be specified in siteConfig.js
 
-`headerLinks` defines what displayed on main menu. Memu items can be one of the four types: doc, blog, page, url
+`headerLinks` defines what displayed on main menu. Menu items can be one of the four types: doc, blog, page, url

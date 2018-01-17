@@ -20,20 +20,19 @@ Then, go to the folder that your'd like to create the documentation website, run
 
 ```
 dochameleon-init
+cd website
+npm run start
 ```
 
-The init script does three things:
+The init script does three things: create `website` folder; npm install `dochameleon` package; copy a basic example website to start from.
 
-1. Create `website` folder
-2. NPM install `dochameleon` package, which includes core library.
-3. Copy a basic example website so you can start working on docs.
 
 ### Manual installation
 
 If you do not want `dochameleon-init`, rather create website manually.
 
-1. Create and go into the `website` folder
-2. Create package.json with content,
+- Create and go into the `website` folder
+- Create package.json with content,
 ```
 {
   "scripts": {
@@ -41,11 +40,12 @@ If you do not want `dochameleon-init`, rather create website manually.
   }
 }
 ```
-3. Install Dochameleon, run
+- Install Dochameleon, run
 ```
 npm install dochameleon
 ```
-4. Init with basic example, run
+
+- Init with basic example, run
 ```
 npm run examples
 ```
@@ -56,4 +56,28 @@ Once installation completed, a website with example content is ready to go. Just
 
 ```
 npm run start
+```
+
+### File Structure
+
+Once installation successful, here is the file structure you'll have under the `website` folder
+
+```bash
+website/
+├── blog/
+│   ├── 2018-01-08-why-dochameleon.md
+│   └── 2018-01-10-staging-step.md
+├── components/
+├── docs/
+│   ├── doc1.md
+│   ├── doc2.md
+│   ├── doc3.md
+│   └── sidebars.json
+├── pages/
+│   ├── help.js
+│   ├── index.js
+│   └── users.js
+├── siteConfig.js
+├── static/
+└── theme/
 ```

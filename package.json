@@ -34,7 +34,7 @@
     "commander": "^2.11.0",
     "express": "^4.15.3",
     "feed": "^1.1.0",
-    "fluid-react": "0.0.37",
+    "fluid-react": "0.0.40",
     "fs-extra": "^5.0.0",
     "glob": "^7.1.2",
     "highlight.js": "^9.12.0",

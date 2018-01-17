@@ -2,6 +2,7 @@
   "docs": {
     "Getting Started": [
       "guide_installation",
+      "guide_configuration",
       "guide_site_creation",
       "guide_site_publishing"
     ],

@@ -17,10 +17,11 @@ const siteConfig = {
   ],
 
   headerLinks: [
-    {doc: 'guide_installation', label: 'Docs'},
-    {url: 'https://github.com/richardzcode/Dochameleon', label: 'GitHub'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {type: 'doc', value: 'guide_installation', label: 'Docs'},
+    {type: 'url', value: 'https://github.com/richardzcode/Dochameleon', label: 'GitHub'},
+    {type: 'page', value: 'help', label: 'Help'},
+    {type: 'blog', label: 'Blog'},
+    {type: 'search'},
   ]
 };
 

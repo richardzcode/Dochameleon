@@ -13,8 +13,5 @@
       "guide_react",
       "guide_core"
     ]
-  },
-  "example_docs": {
-    "Examples": ["doc1", "doc2", "doc3"]
   }
 }

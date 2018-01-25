@@ -25,6 +25,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "algoliasearch": "^3.24.9",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",

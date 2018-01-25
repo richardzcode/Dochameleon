@@ -12,6 +12,7 @@
       "guide_theme",
       "guide_react",
       "guide_core"
-    ]
+    ],
+    "More": ["guide_search"]
   }
 }

@@ -12,7 +12,8 @@
       "guide_theme",
       "guide_react",
       "guide_core"
-    ]
+    ],
+    "More": ["guide_search"]
   },
   "example_docs": {
     "Examples": ["doc1", "doc2", "doc3"]

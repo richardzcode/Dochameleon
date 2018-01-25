@@ -1,7 +1,7 @@
 {
   "name": "dochameleon",
   "description": "Simpler but more flexible Docusaurus",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "license": "MIT",
   "keywords": [
     "documentation",

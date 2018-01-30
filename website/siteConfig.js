@@ -22,7 +22,9 @@ const siteConfig = {
     {type: 'page', value: 'help', label: 'Help'},
     {type: 'blog', label: 'Blog'},
     {type: 'search'},
-  ]
+  ],
+
+  buildDir: '../docs'
 };
 
 module.exports = siteConfig;

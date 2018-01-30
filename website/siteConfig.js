@@ -13,7 +13,7 @@ const siteConfig = {
   favicon: 'img/favicon.png',
 
   js: [
-    'https://buttons.github.io/buttons.js',
+    'https://buttons.github.io/buttons.js'
   ],
 
   headerLinks: [

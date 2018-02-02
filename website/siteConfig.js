@@ -5,6 +5,7 @@ const siteConfig = {
   title: 'Dochameleon',
   tagline: 'Open Source Documentation Site Generator',
   copyright: 'Copyright © ' + currentYear + ' Richard Zhang',
+  cname: 'dochameleon.io',
 
   rootUrl: 'https://richardzcode.github.io',
   baseUrl: '',

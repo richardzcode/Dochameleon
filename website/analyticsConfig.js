@@ -1,6 +1,6 @@
 const analyticsConfig = {
-  tracker_id: 'UA-113485999-1',
-  js: { src: 'https://www.google-analytics.com/analytics.js', async: true }
+  tracking_id: 'UA-113485999-1',
+  js: { src: 'https://www.googletagmanager.com/gtag/js', async: true }
 }
 
 module.exports = analyticsConfig;

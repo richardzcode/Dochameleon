@@ -16,8 +16,8 @@ website/
 Content similiar to this, remember to replace tracker_id:
 ```
 const analyticsConfig = {
-  tracker_id: 'UA-XXXX-Y',
-  js: { src: 'https://www.google-analytics.com/analytics.js', async: true }
+  tracking_id: 'UA-XXXX-Y',
+  js: { src: 'https://www.googletagmanager.com/gtag/js', async: true }
 }
 
 module.exports = analyticsConfig;

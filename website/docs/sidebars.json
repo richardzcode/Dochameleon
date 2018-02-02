@@ -13,6 +13,9 @@
       "guide_react",
       "guide_core"
     ],
-    "More": ["guide_search"]
+    "More": [
+      "guide_search",
+      "guide_analytics"
+    ]
   }
 }

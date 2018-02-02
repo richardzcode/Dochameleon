@@ -5,6 +5,7 @@
 <url> <loc>https://richardzcode.github.io/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://richardzcode.github.io/blog/2018/01/10/staging-step.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://richardzcode.github.io/blog/2018/01/08/why-dochameleon.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://richardzcode.github.io/docs/guide_analytics.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://richardzcode.github.io/docs/guide_configuration.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://richardzcode.github.io/docs/guide_color_scheme.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://richardzcode.github.io/docs/guide_core.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>

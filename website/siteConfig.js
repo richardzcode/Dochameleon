@@ -5,7 +5,6 @@ const siteConfig = {
   title: 'Dochameleon',
   tagline: 'Open Source Documentation Site Generator',
   copyright: 'Copyright © ' + currentYear + ' Richard Zhang',
-  cname: 'dochameleon.io',
 
   rootUrl: 'https://richardzcode.github.io',
   baseUrl: '',
@@ -14,7 +13,7 @@ const siteConfig = {
   favicon: 'img/favicon.png',
 
   js: [
-    'https://buttons.github.io/buttons.js'
+    { src: 'https://buttons.github.io/buttons.js', async: true }
   ],
 
   headerLinks: [

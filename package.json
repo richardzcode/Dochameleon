@@ -26,6 +26,11 @@
   },
   "dependencies": {
     "algoliasearch": "^3.24.9",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babel-traverse": "^6.25.0",
+    "babylon": "^6.17.4",
     "chalk": "^2.1.0",
     "commander": "^2.11.0",
     "express": "^4.15.3",
@@ -50,11 +55,6 @@
     "dochameleon-examples": "./lib/copy-examples.js"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-register": "^6.24.1",
-    "babel-traverse": "^6.25.0",
-    "babylon": "^6.17.4",
     "jest": "^21.2.1",
     "prettier": "^1.9.1",
     "rimraf": "^2.6.2"

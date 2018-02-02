@@ -4,10 +4,19 @@
         <title>Dochameleon Blog</title>
         <link>https://richardzcode.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest Dochameleon news and events.</description>
-        <lastBuildDate>Wed, 10 Jan 2018 14:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2018 14:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <copyright>Copyright © 2018 Richard Zhang</copyright>
+        <item>
+            <title><![CDATA[Dochameleon.io is Live]]></title>
+            <link>https://richardzcode.github.io/blog/2018/02/02/dochameleon-io-live.html</link>
+            <guid>https://richardzcode.github.io/blog/2018/02/02/dochameleon-io-live.html</guid>
+            <pubDate>Fri, 02 Feb 2018 14:00:00 GMT</pubDate>
+            <description><![CDATA[Initially building Dochameleon was purely for fun. Writing code is like playing video game to me. [Docusaurus](https://github.com/facebook/Docusaurus) was like a new game release. So just play.
+
+Since Dochameleon is my own project I have the luxury t]]></description>
+        </item>
         <item>
             <title><![CDATA[Staging Step]]></title>
             <link>https://richardzcode.github.io/blog/2018/01/10/staging-step.html</link>

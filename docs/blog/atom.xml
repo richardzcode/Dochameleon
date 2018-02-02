@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://richardzcode.github.io/blog</id>
     <title>Dochameleon Blog</title>
-    <updated>2018-01-10T14:00:00Z</updated>
+    <updated>2018-02-02T14:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://richardzcode.github.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Dochameleon news and events.</subtitle>
     <rights>Copyright © 2018 Richard Zhang</rights>
+    <entry>
+        <title type="html"><![CDATA[Dochameleon.io is Live]]></title>
+        <id>https://richardzcode.github.io/blog/2018/02/02/dochameleon-io-live.html</id>
+        <link href="https://richardzcode.github.io/blog/2018/02/02/dochameleon-io-live.html">
+        </link>
+        <updated>2018-02-02T14:00:00Z</updated>
+        <summary type="html"><![CDATA[Initially building Dochameleon was purely for fun. Writing code is like playing video game to me. [Docusaurus](https://github.com/facebook/Docusaurus) was like a new game release. So just play.
+
+Since Dochameleon is my own project I have the luxury t]]></summary>
+        <author>
+            <name>Richard Zhang</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Staging Step]]></title>
         <id>https://richardzcode.github.io/blog/2018/01/10/staging-step.html</id>

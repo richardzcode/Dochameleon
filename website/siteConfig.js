@@ -7,7 +7,7 @@ const siteConfig = {
   copyright: 'Copyright © ' + currentYear + ' Richard Zhang',
 
   rootUrl: 'https://richardzcode.github.io',
-  baseUrl: '/Dochameleon',
+  baseUrl: '',
 
   icon: 'img/dochameleon.png',
   favicon: 'img/favicon.png',

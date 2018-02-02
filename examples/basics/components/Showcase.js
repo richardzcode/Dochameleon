@@ -11,10 +11,12 @@ const Showcase = props => {
   const userComps = users
     .filter(user => !props.pinned || user.pinned)
     .map((user, i) => {
+      let img_src = user.img;
+      if (!img_src.startsWith('http')) { img_src = site.url(img_src); }
       return (
         <Col xs={6} sm={4} md={3} lg={2} xl={1} key={i}>
           <a style={theme.showcaseBox} href={user.link}>
-            <img style={theme.showcaseImage} src={site.url(user.img)} title={user.caption} />
+            <img style={theme.showcaseImage} src={img_src} title={user.caption} />
           </a>
         </Col>
       );

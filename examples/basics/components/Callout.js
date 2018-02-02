@@ -13,7 +13,10 @@ class FeatureCallout extends React.Component {
         {callout.imgFirst && (
           <Col sm={12} md={8}>
             <Div style={theme.calloutImageContainer}>
-              <Img src={site.url(callout.img)} style={theme.calloutImage}/>
+              <Img
+                src={site.url(callout.img)}
+                style={Object.assign({}, theme.calloutImage, callout.imgStyle)}
+              />
             </Div>
           </Col>
         )}

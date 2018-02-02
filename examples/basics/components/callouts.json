@@ -23,6 +23,7 @@
       "</sub>"
     ],
     "img": "img/octocat.jpg",
+    "imgStyle": { "maxWidth": "50%" },
     "imgFirst": true
   }
 ]

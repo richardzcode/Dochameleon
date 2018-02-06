@@ -100,3 +100,28 @@ website/
 Put static files under `website/static` folder. They will go to `${rootUrl}${baseUrl}/`
 
 You may refer to static files in docs as `/static/...`, for example `[Logo]( /static/img/logo.png)`
+
+### Configure Source Folders
+
+By default Dochameleon looks up sources under `website` which is the current commandline directory. All source folders are configurable. For example you may want to change 'docs' folder to GitHub repo '/docs'.
+
+Set source folders in `siteConfig.js`
+
+```
+...
+
+const siteConfig = {
+  projectName: 'Dochameleon',
+  title: 'Dochameleon',
+  tagline: 'Open Source Documentation Site Generator',
+  copyright: 'Copyright © ' + currentYear + ' Richard Zhang',
+
+  docsDir: '../docs',
+  pagesDir: ...,
+  blogDir: ...,
+  componentsDir: ...,
+  staticDir: ...,
+  themeDir: ...,
+
+...
+```

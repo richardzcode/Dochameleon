@@ -9,7 +9,7 @@ class Languages extends React.Component {
       .map((language, i) => {
         return (
           <Col xs={6} sm={4} md={3} lg={2} xl={1} key={i}>
-            <a style={theme.a} href={site.url('', lang)}>
+            <a style={theme.a} href={site.url('', language)}>
               {site.i18n.translate(language, lang)}
             </a>
           </Col>

@@ -5,9 +5,12 @@ const MarkdownBlock = require('./MarkdownBlock');
 
 class FeatureCallout extends React.Component {
   render() {
-    const { site, callout } = this.props;
+    const { site, lang, callout } = this.props;
     const { theme } = site;
-    const content = [].concat(callout.content).join('');
+    const title = site.i18n.translate(callout.title, lang);
+    const content = callout['content.token']
+      ? [].concat(site.i18n.translate(callout['content.token'], lang)).join('')
+      : [].concat(callout.content).join('');
     return (
       <Row>
         {callout.imgFirst && (
@@ -25,8 +28,8 @@ class FeatureCallout extends React.Component {
             ? <A
                 style={theme.calloutTitle}
                 href={site.docUrl(callout.doc)}
-              >{callout.title}</A>
-            : <Div style={theme.calloutTitle}>{callout.title}</Div>
+              >{title}</A>
+            : <Div style={theme.calloutTitle}>{title}</Div>
           }
           <MarkdownBlock site={site}>{content}</MarkdownBlock>
         </Col>

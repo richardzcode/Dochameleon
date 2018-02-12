@@ -9,20 +9,20 @@ const callouts = require('../components/callouts.json');
 
 class Index extends React.Component {
   render() {
-    const { site } = this.props;
+    const { site, lang } = this.props;
     const { theme } = site;
     return (
       <div>
-        <HomeSplash site={site} />
-        <div style={theme.block}><Features site={site} /></div>
+        <HomeSplash site={site} lang={lang} />
+        <div style={theme.block}><Features site={site} lang={lang} /></div>
         <div style={theme.blockEven}>
-          <Callout site={site} callout={callouts[0]} />
+          <Callout site={site} callout={callouts[0]} lang={lang} />
         </div>
         <div style={theme.block}>
-          <Callout site={site} callout={callouts[1]} />
+          <Callout site={site} callout={callouts[1]} lang={lang} />
         </div>
         <div style={theme.blockEven}>
-          <Showcase site={site} pinned />
+          <Showcase site={site} lang={lang} pinned />
         </div>
       </div>
     );

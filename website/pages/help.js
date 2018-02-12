@@ -4,7 +4,7 @@ const HelpDetails = require('../components/HelpDetails.js');
 
 class Help extends React.Component {
   render() {
-    const { site } = this.props;
+    const { site, lang } = this.props;
     const { theme } = site;
     return (
       <div style={theme.section}>
@@ -12,7 +12,7 @@ class Help extends React.Component {
           <h2 style={theme.helpTitle}>Need help?</h2>
           <p style={theme.p}>This project is maintained by a dedicated group of people.</p>
         </div>
-        <HelpDetails site={site} />
+        <HelpDetails site={site} lang={lang} />
       </div>
     );
   }

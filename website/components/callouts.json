@@ -2,6 +2,7 @@
   {
     "title": "Quick Setup",
     "doc": "guide_installation",
+    "content.token": "quick_setup.content",
     "content": [
       "Get up and running quickly. Have your own website in just a few minutes",
       "\n",
@@ -18,6 +19,7 @@
   {
     "title": "Develop and Deploy",
     "doc": "guide_site_publishing",
+    "content.token": "develop_deploy.content",
     "content": [
       "Develop using included live server; ",
       "Deploy to GitHub or any static file web hosts"

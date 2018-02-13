@@ -9,7 +9,7 @@ class FeatureCallout extends React.Component {
     const { theme } = site;
     const title = site.i18n.translate(callout.title, lang);
     const content = callout['content.token']
-      ? [].concat(site.i18n.translate(callout['content.token'], lang)).join('')
+      ? [].concat(site.i18n.translate(callout['content.token'], lang, callout.content)).join('')
       : [].concat(callout.content).join('');
     return (
       <Row>

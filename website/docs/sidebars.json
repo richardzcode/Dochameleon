@@ -15,7 +15,8 @@
     ],
     "More": [
       "guide_search",
-      "guide_analytics"
+      "guide_analytics",
+      "guide_i18n"
     ]
   }
 }

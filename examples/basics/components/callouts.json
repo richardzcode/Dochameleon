@@ -2,25 +2,27 @@
   {
     "title": "Quick Setup",
     "doc": "guide_installation",
+    "content.token": "quick_setup.content",
     "content": [
-      "Get up and running quickly",
-      "\n<br/><br/>",
-      "\n<sub>",
-      "Modify \"website/components/callouts.json\" to change content of this section",
-      "</sub>"
+      "Get up and running quickly. Have your own website in just a few minutes",
+      "\n",
+      "\n```bash",
+      "\n> npm install -g dochameleon-init",
+      "\n> dochameleon-init",
+      "\n> cd website",
+      "\n> npm run start",
+      "\n```"
     ],
     "img": "img/setup.png",
     "imgFirst": false
   },
   {
     "title": "Develop and Deploy",
+    "doc": "guide_site_publishing",
+    "content.token": "develop_deploy.content",
     "content": [
       "Develop using included live server; ",
-      "Deploy to GitHub or any static file web hosts",
-      "\n<br/><br/>",
-      "\n<sub>",
-      "Modify \"website/components/callouts.json\" to change content of this section",
-      "</sub>"
+      "Deploy to GitHub or any static file web hosts"
     ],
     "img": "img/octocat.jpg",
     "imgStyle": { "maxWidth": "50%" },

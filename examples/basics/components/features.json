@@ -1,26 +1,31 @@
 {
   "header": "",
-  "footer": [
-    "<sub>",
-    "Modify \"website/components/features.json\" to change content of this section",
-    "</sub>"
-  ],
+  "footer": "",
   "features": [
     {
       "title": "Powered by Markdown",
+      "content.token": "markdown.content",
       "content": [
         "Write docs and blog posts with ",
-        "[Markdown](https://guides.github.com/features/mastering-markdown/)"
+        "[Markdown](https://guides.github.com/features/mastering-markdown/). ",
+        "Dochameleon converts them into HTML files."
       ],
       "img": "img/markdown.png"
     },
     {
       "title": "Built Using React",
+      "content.token": "react.content",
       "content": [
-        "Extend or customize your project by using ",
-        "[React](https://reactjs.org/)"
+        "Build [React](https://reactjs.org/) Components ",
+        "to extend or customize your project."
       ],
       "img": "img/react.svg"
+    },
+    {
+      "title": "Progressive Customization",
+      "content.token": "customization.content",
+      "content": "Works out-of-box, able to customize to the extend of replacing core components",
+      "img": "img/progressive.png"
     }
   ]
 }

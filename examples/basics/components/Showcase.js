@@ -6,7 +6,7 @@ const users = require('./users.json');
 const Showcase = props => {
   if (users.length === 0) { return null; }
 
-  const { site } = props;
+  const { site, lang } = props;
   const { theme } = site;
   const userComps = users
     .filter(user => !props.pinned || user.pinned)
@@ -24,8 +24,11 @@ const Showcase = props => {
 
   return (
     <Div style={theme.showcase}>
-      <H3 style={theme.h3}>Who's Using This?</H3>
-      <H5 style={theme.h5}>This project is used by all these people</H5>
+      <H3 style={theme.h3}>
+        {site.i18n.translate('Who\'s Using This?', lang)}</H3>
+      <H5 style={theme.h5}>
+        {site.i18n.translate('This project is used by all these people', lang)}
+      </H5>
       <Row>
         {userComps}
       </Row>

@@ -1,4 +1,5 @@
 const React = require('react');
+const { JS} = require('fsts');
 
 const Showcase = require('../components/Showcase.js');
 
@@ -8,13 +9,13 @@ class Users extends React.Component {
   render() {
     const { site, lang } = this.props;
     const { theme } = site;
+
+    const cta = site.i18n.translate('Create <a href="{0}">pull request</a> to add your logo', lang);
     return (
       <div>
         <div style={theme.block}>
           <Showcase site={site} lang={lang} />
-          <h5 style={theme.h5}>
-            Create <a href={user_json}>pull request</a> to add your logo
-          </h5>
+          <h5 style={theme.h5} dangerouslySetInnerHTML={{__html: JS.format(cta, user_json)}} />
         </div>
       </div>
     );

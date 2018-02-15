@@ -5,6 +5,8 @@ const MarkdownBlock = require('../components/MarkdownBlock.js');
 
 const no_languages_content = `
 To have multi-language, write translations under \`website/i18n/$lang_code$\`
+
+[Example](https://github.com/richardzcode/Dochameleon/tree/master/website/i18n)
 `;
 
 class Languages extends React.Component {

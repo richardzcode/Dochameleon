@@ -16,6 +16,7 @@ const menu = {
   'More': '更多',
   'Search': '搜索',
   'Analytics': '分析',
+  'Multi-Language': '多种语言',
   'Recent Posts': '最新文章',
   'Read More': '阅读更多',
   'Community': '社区',

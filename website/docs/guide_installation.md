@@ -24,7 +24,12 @@ cd website
 npm run start
 ```
 
-The init script does three things: create `website` folder; npm install `dochameleon` package; copy a basic example website to start from.
+Now check http://localhost:3000, the website is up running!
+
+The init script does three things:
+* create `website` folder;
+* npm install `dochameleon` package;
+* copy a basic example website to start from.
 
 
 ### Manual installation

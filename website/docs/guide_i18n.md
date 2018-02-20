@@ -43,6 +43,10 @@ module.exports = blog;
 
 A dictionary is not enough to translate a full document. Create `docs` folder under language folder and have translated documentation. Make sure to have same document id in metadata section of the file.
 
-### {lang} Parameter
+For example look at [here](https://github.com/richardzcode/Dochameleon/tree/master/website/i18n/zh/docs)
+
+### {lang} Parameter and Translation
 
 A {lang} parameter is passed down to all components for rendering. When developing your own component, make sure to get and pass down {lang} parameter as well.
+
+When render, call `site.i18n.translate(token, lang)` to get translation.

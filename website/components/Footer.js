@@ -13,7 +13,7 @@ class Footer extends React.Component {
             <a style={theme.sitemapRow} href={site.docUrl('guide_installation', lang)}>
               {site.i18n.translate('Getting Started', lang)}
             </a>
-            <a style={theme.sitemapRow} href={site.docUrl('guide_customize_progressive', lang)}>
+            <a style={theme.sitemapRow} href={site.docUrl('guide_progressive', lang)}>
               {site.i18n.translate('Customize', lang)}
             </a>
             <a style={theme.sitemapRow} href={site.docUrl('guide_search', lang)}>

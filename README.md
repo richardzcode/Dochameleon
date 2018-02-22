@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/dochameleon.svg)](https://badge.fury.io/js/dochameleon)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub last commit](https://img.shields.io/github/last-commit/richardzcode/Dochameleon.svg)]()
 
 A Progressive Static Website Generator, built for Open Source documentation.
 

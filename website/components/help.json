@@ -1,14 +1,14 @@
 [
   {
     "title": "Browse Docs",
-    "content": "Learn more using the documentation on this site."
+    "content": "Learn more using the [documentation](docs/guide_installation.html)."
   },
   {
     "title": "Join the community",
-    "content": "Ask questions about the documentation and project"
+    "content": "Ask questions at [Gitter](https://gitter.im/Dochameleon/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)."
   },
   {
     "title": "Stay up to date",
-    "content": "Find out what's new with this project"
+    "content": "Find out what's [new](https://github.com/richardzcode/Dochameleon)."
   }
 ]

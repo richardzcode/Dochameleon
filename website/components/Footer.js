@@ -27,9 +27,9 @@ class Footer extends React.Component {
             </a>
             <a
               style={theme.sitemapRow}
-              href="https://twitter.com/"
+              href="https://gitter.im/Dochameleon/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link"
               target="_blank">
-              {site.i18n.translate('Twitter', lang)}
+              {site.i18n.translate('Gitter', lang)}
             </a>
           </div>
           <div style={theme.sitemapSection}>

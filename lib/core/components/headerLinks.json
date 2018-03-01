@@ -1,0 +1,5 @@
+[
+  { "type": "doc", "label": "Docs" },
+  { "type": "blog", "label": "Blog" },
+  { "type": "search" }
+]

@@ -29,17 +29,43 @@ const siteConfig = {
   css: [],
   js: [
     'https://buttons.github.io/buttons.js',
-  ],
-
-  headerLinks: [
-    {doc: 'guide_installation', label: 'Docs'},
-    {url: 'https://github.com/richardzcode/Dochameleon', label: 'GitHub'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
   ]
 };
 ```
 
 Dochameleon itself does not have css file. Theming is through CSS-in-JS. Extra css and js files can be specified in siteConfig.js
 
-`headerLinks` defines what displayed on main menu. Menu items can be one of the four types: doc, blog, page, url
+#### Header Links
+
+`website/components/headerLinks.json` defines what displayed on main menu. Create this file to replace default header links.
+
+Menu item types:
+
+* doc
+* blog
+* page
+* url
+* search
+
+Example:
+
+```
+[
+  { "type": "doc", "value": "guide_installation", "label": "Docs" },
+  { "type": "page", "value": "help", "label": "Help" },
+  { "type": "blog", "label": "Blog" },
+  {
+    "type": "page",
+    "value": "languages",
+    "img": "img/translation.svg",
+    "label": "Languages"
+  },
+  {
+    "type": "url",
+    "value": "https://github.com/richardzcode/Dochameleon",
+    "img": "img/github.png",
+    "label": "GitHub"
+  },
+  { "type": "search" }
+]
+```

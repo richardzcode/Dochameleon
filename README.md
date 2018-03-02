@@ -1,7 +1,8 @@
 # Dochameleon
 
-[![npm version](https://badge.fury.io/js/dochameleon.svg)](https://badge.fury.io/js/dochameleon)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/dochameleon.svg)](https://badge.fury.io/js/dochameleon)
+[![npm downloads](https://img.shields.io/npm/dm/dochameleon.svg)](https://www.npmjs.com/package/dochameleon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/richardzcode/Dochameleon.svg)]()
 
 A Progressive Static Website Generator, built for Open Source documentation.

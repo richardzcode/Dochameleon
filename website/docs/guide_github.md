@@ -38,7 +38,7 @@ You may want to make README.md as home page instead of the default one.
 The library actually has already created a `readme.html` page with your README.md. You may just copy this source code
 
 ```
-cp node_modules/dochameleon/lib/pages/readme.js pages/index.js
+cp node_modules/dochameleon/lib/core/pages/readme.js pages/index.js
 ```
 
 Now `npm run start`.

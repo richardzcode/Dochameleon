@@ -18,7 +18,7 @@ Start your website in less than 1 minute.
 
 Progressive
 
-<img src="docs/assets/img/progressive.png" width="520px" height="520px" />
+<img src="docs/assets/img/progressive.png" width="520px" />
 
 1. [Just write markdown for documentation and blogging](http://dochameleon.io/docs/guide_site_creation.html)
 2. [Change color scheme](http://dochameleon.io/docs/guide_color_scheme.html)

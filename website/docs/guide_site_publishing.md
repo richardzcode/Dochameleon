@@ -48,3 +48,5 @@ const siteConfig = {
 
 ...
 ```
+
+**Caution:** During build Dochameleon will remove files in buildDir. Make sure `../docs` doesn't have files you needed for other purposes.

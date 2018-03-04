@@ -4,7 +4,8 @@
       "guide_installation",
       "guide_configuration",
       "guide_site_creation",
-      "guide_site_publishing"
+      "guide_site_publishing",
+      "guide_github"
     ],
     "Customization": [
       "guide_progressive",

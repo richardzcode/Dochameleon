@@ -7,6 +7,7 @@ const menu = {
   'Site Configuration': '配置网站',
   'Site Creation': '充实网站',
   'Site Publishing': '发布网站',
+  'Project on GitHub': 'GitHub上的项目',
   'Customization': '定制',
   'Customize': '定制',
   'Progressive Customization': '渐进式定制',

@@ -1,7 +1,11 @@
 [
   { "type": "doc", "value": "guide_installation", "label": "Docs" },
-  { "type": "doc", "value": "doc1", "label": "Examples" },
-  { "type": "url", "value": "https://github.com/richardzcode/Dochameleon", "label": "GitHub" },
   { "type": "page", "value": "readme", "label": "README" },
-  { "type": "blog", "label": "Blog" }
+  { "type": "blog", "label": "Blog" },
+  {
+    "type": "url",
+    "value": "https://github.com/richardzcode/Dochameleon",
+    "img": "img/github.png",
+    "label": "GitHub"
+  }
 ]

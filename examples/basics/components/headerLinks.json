@@ -1,6 +1,6 @@
 [
-  { "type": "doc", "value": "guide_installation", "label": "Docs" },
   { "type": "page", "value": "readme", "label": "README" },
+  { "type": "doc", "value": "guide_installation", "label": "Docs" },
   { "type": "blog", "label": "Blog" },
   {
     "type": "url",

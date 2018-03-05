@@ -3,18 +3,21 @@
 const shell = require("shelljs");
 const chalk = require("chalk");
 const fs = require("fs");
+const path = require("path");
 
 const CWD = process.cwd();
+const join = path.join;
 
 const log = console.log;
 const error = console.error;
 
 let useYarn = !!(shell.which("yarn"));
 
-if (fs.existsSync(CWD + "/website")) {
+let file = join(CWD, "website");
+if (fs.existsSync(file)) {
   error(chalk.yellow("/website folder already exists.\n"));
   log(
-    "Dochameleon setup at 'website' folder. You will need to remove any existing 'website' folder from your root directory to let Dochameleon do its work."
+    "Dochameleon setup at 'website' folder. You will need to remove existing 'website' folder from root directory to let Dochameleon do its work."
   );
   process.exit(1);
 }

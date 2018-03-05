@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "chalk": "^2.1.0",
+    "inquirer": "^5.1.0",
     "shelljs": "^0.7.8"
   }
 }

@@ -31,6 +31,10 @@ Modify `siteConfig.js` with your project information, particularly:
 * icon
 * favicon
 
+### Assets
+
+In case you have assets like images, put them under `docs/assets` folder of your repo. Dochameleon will keep them so the references still work as usual.
+
 ### Home Page
 
 You may want to make README.md as home page instead of the default one.

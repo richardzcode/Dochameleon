@@ -31,6 +31,16 @@ Modify `siteConfig.js` with your project information, particularly:
 * icon
 * favicon
 
+### Docs
+
+By default Dochameleon loads docs from `website/docs`. You may copy files over, or just change the config. For example, by GitHub convention it is the `docs` folder under your repo. Add this line to your `website/siteConfig.js`
+
+```
+docsDir: '../docs'
+```
+
+**Caution:** Do not set docsDir and buildDir to the same path, since building process would remove and add files.
+
 ### Assets
 
 In case you have assets like images, put them under `docs/assets` folder of your repo. Dochameleon will keep them so the references still work as usual.

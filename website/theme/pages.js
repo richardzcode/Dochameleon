@@ -2,10 +2,10 @@ const color = require('./color.js');
 
 const pages = {
   block: {
-    padding: '60px 10px'
+    padding: '30px 10px'
   },
   blockEven: {
-    padding: '60px 10px',
+    padding: '30px 10px',
     background: '#e9e9e9'
   },
   homeSplash: {

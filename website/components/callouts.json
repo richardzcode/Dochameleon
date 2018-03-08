@@ -25,7 +25,7 @@
       "Deploy to GitHub or any static file web hosts"
     ],
     "img": "img/octocat.jpg",
-    "imgStyle": { "maxWidth": "50%" },
+    "imgStyle": { "maxWidth": "40%" },
     "imgFirst": true
   }
 ]

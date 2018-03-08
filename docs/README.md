@@ -16,7 +16,9 @@ Start your website in less than 1 minute.
 > npm run start
 ```
 
-Progressive
+Or, [install without script](https://dochameleon.io/docs/guide_installation.html#manual-installation)
+
+Progressive Customization
 
 <img src="docs/assets/img/progressive.png" width="520px" />
 

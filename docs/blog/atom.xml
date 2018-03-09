@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://richardzcode.github.io/blog</id>
     <title>Dochameleon Blog</title>
-    <updated>2018-02-02T14:00:00Z</updated>
+    <updated>2018-03-09T14:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://richardzcode.github.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Dochameleon news and events.</subtitle>
     <rights>Copyright © 2018 Richard Zhang</rights>
+    <entry>
+        <title type="html"><![CDATA[Everybody Should Have an Website]]></title>
+        <id>https://richardzcode.github.io/blog/2018/03/09/everybody-should-have-an-website.html</id>
+        <link href="https://richardzcode.github.io/blog/2018/03/09/everybody-should-have-an-website.html">
+        </link>
+        <updated>2018-03-09T14:00:00Z</updated>
+        <summary type="html"><![CDATA[Everybody has social networks apps, probably more than one. But not a lot of people own websites.
+
+The assumption is building an website is hard and probably requires some cost. Even [Wordpress](https://wordpress.org) famous 5 minutes installation do]]></summary>
+        <author>
+            <name>Richard Zhang</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dochameleon.io is Live]]></title>
         <id>https://richardzcode.github.io/blog/2018/02/02/dochameleon-io-live.html</id>
